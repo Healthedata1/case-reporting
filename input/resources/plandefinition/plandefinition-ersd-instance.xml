@@ -76,7 +76,7 @@
                     </valueExpression>
                   </extension>
                   <language value="text/fhirpath"/>
-                  <expression value="%conditions.exists() or %encounters.exists() or %immunizations.exists() or %labOrders.exists() or %labTests.exists() or %labResults.exists()"/>
+                  <expression value="%conditions.exists() or %encounters.exists() or %immunizations.exists() or %procedures.exists() or $procedureOrders.exists() or %labOrders.exists() or %labTests.exists() or %labResults.exists() or %medicationAdministrations.exists() or %medicationOrders.exists() or %medicationDispenses.exists()"/>
                 </expression>
                 <expression>
                     <language value="text/cql.identifier"/>
@@ -118,7 +118,35 @@
                 <valueSet value="http://hl7.org/fhir/us/ecr/ValueSet/valueset-lotc-example"/>
               </codeFilter>
             </input>
-            <input id="medications">
+            <input id="procedureOrders">
+              <type value="ServiceRequest"/>
+              <codeFilter>
+                <path value="code"/>
+                <valueSet value="http://hl7.org/fhir/us/ecr/ValueSet/valueset-pctc-example"/>
+              </codeFilter>
+            </input>
+            <input id="procedures">
+              <type value="Procedure"/>
+              <codeFilter>
+                <path value="code"/>
+                <valueSet value="http://hl7.org/fhir/us/ecr/ValueSet/valueset-pctc-example"/>
+              </codeFilter>
+            </input>
+            <input id="medicationOrders">
+              <type value="MedicationRequest"/>
+              <codeFilter>
+                <path value="medication"/>
+                <valueSet value="http://hl7.org/fhir/us/ecr/ValueSet/valueset-mrtc-example"/>
+              </codeFilter>
+            </input>
+            <input id="medicationDispenses">
+              <type value="MedicationDispense"/>
+              <codeFilter>
+                <path value="medication"/>
+                <valueSet value="http://hl7.org/fhir/us/ecr/ValueSet/valueset-mrtc-example"/>
+              </codeFilter>
+            </input>
+            <input id="medicationAdministrations">
               <type value="MedicationAdministration"/>
               <codeFilter>
                 <path value="medication"/>
