@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="patient-ecr-eve-everywoman"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2020-10-28T06:46:34.225+00:00"/>
-        <source value="#0v9TIwUXEAlaxtOV"/>
+        <versionId value="6"/>
+        <lastUpdated value="2020-12-01T03:32:57.036+00:00"/>
+        <source value="#teS5D34DfIfmitb2"/>
         <profile value="http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-patient"/>
     </meta>
     <text>
@@ -102,8 +102,14 @@
                                     <li>
                                         <div title="display">female</div>  (
                                         
+                                        
+                                        
+                                        
                                         <div title="code">female</div> )
           
+                                    
+                                    
+                                    
                                     
                                     </li>
                                     <li>
@@ -128,8 +134,14 @@
                                     <li>
                                         <div title="display">Medical Record Number</div>  (
                                         
+                                        
+                                        
+                                        
                                         <div title="code">MR</div> )
           
+                                    
+                                    
+                                    
                                     
                                     </li>
                                     <li>
@@ -301,6 +313,18 @@
             <valueString value="Not Hispanic or Latino"/>
         </extension>
     </extension>
+    <extension url="http://hl7.org/fhir/us/ecr/StructureDefinition/real-d-race-ethnicity-extension">
+        <extension url="text">
+            <valueString value="White"/>
+        </extension>
+        <extension url="REALDCategory">
+            <valueCoding>
+                <system value="http://hl7.org/fhir/us/ecr/CodeSystem/codesystem-reald-race-ethnicity"/>
+                <code value="western-european"/>
+                <display value="Western European"/>
+            </valueCoding>
+        </extension>
+    </extension>
     <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex">
         <valueCode value="F"/>
     </extension>
@@ -312,6 +336,18 @@
                 <display value="female"/>
             </coding>
         </valueCodeableConcept>
+    </extension>
+    <extension url="http://hl7.org/fhir/us/ecr/StructureDefinition/tribal-affiliation-extension">
+        <extension url="TribeName">
+            <valueCoding>
+                <system value="http://terminology.hl7.org/CodeSystem/v3-TribalEntityUS"/>
+                <code value="91"/>
+                <display value="Fort Mojave Indian Tribe of Arizona, California"/>
+            </valueCoding>
+        </extension>
+        <extension url="EnrolledTribeMember">
+            <valueBoolean value="true"/>
+        </extension>
     </extension>
     <identifier>
         <use value="usual"/>

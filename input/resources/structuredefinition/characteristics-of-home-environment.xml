@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="characteristics-of-home-environment"/>
     <meta>
-        <versionId value="8"/>
-        <lastUpdated value="2020-11-25T01:55:36.309+00:00"/>
-        <source value="#dLtnf1kmsp7AfrUT"/>
+        <versionId value="10"/>
+        <lastUpdated value="2020-12-01T04:28:48.058+00:00"/>
+        <source value="#oyvXmGEqYsvVJw3V"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ecr/StructureDefinition/characteristics-of-home-environment"/>
     <version value="1.0.0"/>
@@ -14,13 +14,14 @@
     <status value="active"/>
     <experimental value="false"/>
     <publisher value="HL7 Public Health Work Group"/>
-    <description value="This profile represents characteristics of the patient's home environment."/>
+    <description value="This Observation profile represents characteristics of the patient's home environment."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
             <code value="US"/>
             <display value="United States of America"/>
         </coding>
+        <text value="United States of America"/>
     </jurisdiction>
     <fhirVersion value="4.0.1"/>
     <mapping>
