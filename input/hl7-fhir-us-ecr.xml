@@ -1800,17 +1800,6 @@
         </resource>
         <resource>
             <reference>
-                <reference value="ValueSet/valueset-pctc-example"/>
-                <display value="Example Procedure Triggers for Public Health Reporting"/>
-            </reference>
-            <name value="Example Procedure Triggers for Public Health Reporting"/>
-            <description value="This example set of values contains procedure names for orders that represent that the patient may have a received a procedure or that a procedure has been requested."/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-triggering-valueset"/>
-            <groupingId value="terminology-valuesets"/>
-        </resource>
-        <resource>
-            <reference>
                 <reference value="StructureDefinition/us-ph-alternativeExpression"/>
                 <display value="US Public Health Alternative Expression Extension"/>
             </reference>
