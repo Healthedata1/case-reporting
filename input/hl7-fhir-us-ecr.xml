@@ -1788,7 +1788,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/us-ph-alternativeExpression-extension"/>
+                <reference value="StructureDefinition/us-ph-alternativeExpression"/>
                 <display value="US Public Health Alternative Expression Extension"/>
             </reference>
             <name value="US Public Health Alternative Expression Extension"/>
