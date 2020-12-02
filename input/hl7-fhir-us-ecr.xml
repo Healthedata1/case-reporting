@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ecr"/>
     <meta>
-        <versionId value="315"/>
-        <lastUpdated value="2020-12-01T04:39:49.149+00:00"/>
-        <source value="#eo21iX0Y3HH8iL5u"/>
+        <versionId value="319"/>
+        <lastUpdated value="2020-12-01T17:43:33.584+00:00"/>
+        <source value="#d5hZ3VFmhZkJKr6b"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ecr/ImplementationGuide/hl7-fhir-us-ecr"/>
     <version value="3.0.0"/>
@@ -52,11 +52,11 @@
         <packageId value="hl7.fhir.us.vr-common-library"/>
         <version value="current"/>
     </dependsOn>
-    <!--<dependsOn>
+    <dependsOn>
         <uri value="http://hl7.org/fhir/us/odh/ImplementationGuide/hl7.fhir.us.odh"/>
         <packageId value="hl7.fhir.us.odh"/>
         <version value="1.0.0"/>
-    </dependsOn>-->
+    </dependsOn>
     <definition>
         <grouping id="us-public-health-profiles">
             <name value="US Public Health Profiles"/>
@@ -1776,6 +1776,24 @@
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-plandefinition"/>
             <groupingId value="us-public-health-examples"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/valueset-pctc-example"/>
+                <display value="Example Procedure Triggers for Public Health Reporting"/>
+            </reference>
+            <name value="Example Procedure Triggers for Public Health Reporting"/>
+            <description value="This example set of values contains procedure names for orders that represent that the patient may have a received a procedure or that a procedure has been requested."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/us-ph-alternativeExpression-extension"/>
+                <display value="US Public Health Alternative Expression Extension"/>
+            </reference>
+            <name value="US Public Health Alternative Expression Extension"/>
+            <description value="This extension represents an US Public Health Alternative Expression"/>
+            <exampleBoolean value="false"/>
         </resource>
         <page>
             <nameUrl value="index.html"/>
