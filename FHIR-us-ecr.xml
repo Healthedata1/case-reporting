@@ -11,7 +11,7 @@
 <artifact id="StructureDefinition/characteristics-of-home-environment" key="StructureDefinition-characteristics-of-home-environment" name="Characteristics of Home Environment"/>
 <artifact id="Observation/observation-characteristics-of-home-environment-eve-everywoman" key="Observation-observation-characteristics-of-home-environment-eve-everywoman" name="Characteristics of Home Environment Example: Eve Everywoman"/>
 <artifact id="CodeSystem/codesystem-task-businessStatus" key="CodeSystem-codesystem-task-businessStatus" name="Code System Task Business Status"/>
-<artifact id="CodeSystem/codesystem-reald-race-ethnicity" key="CodeSystem-codesystem-reald-race-ethnicity" name="CodeSystem REALD Race Ethnicity"/>
+<artifact deprecated="true" id="CodeSystem/codesystem-reald-race-ethnicity" key="CodeSystem-codesystem-reald-race-ethnicity" name="CodeSystem REALD Race Ethnicity"/>
 <artifact id="StructureDefinition/date-determined-extension" key="StructureDefinition-date-determined-extension" name="Date Determined Extension"/>
 <artifact id="StructureDefinition/date-recorded-extension" key="StructureDefinition-date-recorded-extension" name="Date Recorded Extension"/>
 <artifact id="StructureDefinition/disability-status" key="StructureDefinition-disability-status" name="Disability Status"/>
@@ -31,7 +31,6 @@
 <artifact id="Library/FHIR-ModelInfo" key="Library-FHIR-ModelInfo" name="FHIR Model Definition"/>
 <artifact id="Immunization/immunization-ecr-pneumo" key="Immunization-immunization-ecr-pneumo" name="Immunication Example: immunization-ecr-pneumo"/>
 <artifact id="Observation/observation-last-menstrual-period-eve-everywoman" key="Observation-observation-last-menstrual-period-eve-everywoman" name="Last Menstrual Period Example: observation-last-menstrual-period-eve-everywoman"/>
-<artifact deprecated="true" id="StructureDefinition/last-menstrual-period" key="StructureDefinition-last-menstrual-period" name="Last_Menstrual_Period"/>
 <artifact id="Location/location-ecr-city-football-stadium" key="Location-location-ecr-city-football-stadium" name="Location Example: City Football Stadium"/>
 <artifact id="MedicationAdministration/medicationadministration-eve-everywoman-azithromycin" key="MedicationAdministration-medicationadministration-eve-everywoman-azithromycin" name="MedicationAdministration Example: Eve Everywoman, azithromycin"/>
 <artifact id="MedicationAdministration/medicationadministration-eve-everywoman-naloxone-response" key="MedicationAdministration-medicationadministration-eve-everywoman-naloxone-response" name="MedicationAdministration Example: Eve Everywoman, naloxone response"/>
@@ -73,17 +72,15 @@
 <artifact id="Observation/observation-rr-eicr-processing-status-reason" key="Observation-observation-rr-eicr-processing-status-reason" name="RR eICR Processing Status Reason Example: observation-rr-eicr-processing-status-reason"/>
 <artifact id="StructureDefinition/rr-eicr-processing-status-reason-observation" key="StructureDefinition-rr-eicr-processing-status-reason-observation" name="RR eICR Processing Status Reason Observation"/>
 <artifact id="StructureDefinition/rr-eicr-receipt-time-extension" key="StructureDefinition-rr-eicr-receipt-time-extension" name="RR eICR Receipt Time Extension"/>
-<artifact id="StructureDefinition/real-d-race-ethnicity-extension" key="StructureDefinition-real-d-race-ethnicity-extension" name="Race, Ethnicity, Language, and Disability (REAL D) Race and Ethnicity Extension"/>
+<artifact deprecated="true" id="StructureDefinition/real-d-race-ethnicity-extension" key="StructureDefinition-real-d-race-ethnicity-extension" name="Race, Ethnicity, Language, and Disability (REAL D) Race and Ethnicity Extension"/>
 <artifact id="StructureDefinition/relates-to-extension" key="StructureDefinition-relates-to-extension" name="Relates To Extension"/>
 <artifact id="Library/RuleFilters" key="Library-RuleFilters" name="Rule Filters"/>
-<artifact deprecated="true" id="StructureDefinition/runtime-valueset" key="StructureDefinition-runtime-valueset" name="Runtime ValueSet"/>
 <artifact id="StructureDefinition/therapeutic-medication-response-extension" key="StructureDefinition-therapeutic-medication-response-extension" name="Therapeutic Medication Response Extension"/>
 <artifact id="StructureDefinition/address-extension" key="StructureDefinition-address-extension" name="Travel History Address Extension"/>
 <artifact id="StructureDefinition/travel-history-observation" key="StructureDefinition-travel-history-observation" name="Travel History Observation"/>
 <artifact id="Observation/observation-travel-history-eve-everywoman-1999" key="Observation-observation-travel-history-eve-everywoman-1999" name="Travel History Observation Example: observation-travel-history-eve-everywoman-1999"/>
 <artifact id="Observation/observation-travel-history-eve-everywoman-201610" key="Observation-observation-travel-history-eve-everywoman-201610" name="Travel History Observation Example: observation-travel-history-eve-everywoman-201610"/>
 <artifact id="Observation/observation-travel-history-eve-everywoman-201801" key="Observation-observation-travel-history-eve-everywoman-201801" name="Travel History Observation Example: observation-travel-history-eve-everywoman-201801"/>
-<artifact deprecated="true" id="StructureDefinition/travel-history-address-extension" key="StructureDefinition-travel-history-address-extension" name="Travel_History_Address_Extension"/>
 <artifact id="StructureDefinition/tribal-affiliation-extension" key="StructureDefinition-tribal-affiliation-extension" name="Tribal Affiliation Extension"/>
 <artifact id="Device/us-core-device-ecmo" key="Device-us-core-device-ecmo" name="US Core Device Example: ECMO"/>
 <artifact id="Practitioner/practitioner-us-core-henry-seven" key="Practitioner-practitioner-us-core-henry-seven" name="US Core Practitioner Example: Henry Seven"/>
@@ -101,7 +98,7 @@
 <artifact id="Organization/organization-ecr-ymca-center" key="Organization-organization-ecr-ymca-center" name="US PH Organization Example: YMCA"/>
 <artifact id="Patient/patient-ecr-eve-everywoman" key="Patient-patient-ecr-eve-everywoman" name="US PH Patient Example: Eve Everywoman"/>
 <artifact id="PractitionerRole/practitionerrole-henry-seven" key="PractitionerRole-practitionerrole-henry-seven" name="US PH PractitionerRole Example: Henry Seven"/>
-<artifact id="StructureDefinition/us-ph-alternativeExpression-extension" key="StructureDefinition-us-ph-alternativeExpression-extension" name="US Public Health Computable Library"/>
+<artifact id="StructureDefinition/us-ph-alternativeExpression" key="StructureDefinition-us-ph-alternativeExpression" name="US Public Health Alternative Expression Extension"/>
 <artifact id="StructureDefinition/us-ph-computablelibrary" key="StructureDefinition-us-ph-computablelibrary" name="US Public Health Computable Library"/>
 <artifact id="StructureDefinition/us-ph-computablevalueset" key="StructureDefinition-us-ph-computablevalueset" name="US Public Health Computable ValueSet"/>
 <artifact id="StructureDefinition/us-ph-emergency-outbreak-information" key="StructureDefinition-us-ph-emergency-outbreak-information" name="US Public Health Emergency Outbreak Information"/>
@@ -111,7 +108,6 @@
 <artifact id="StructureDefinition/us-ph-executablevalueset" key="StructureDefinition-us-ph-executablevalueset" name="US Public Health Executable ValueSet"/>
 <artifact id="Observation/observation-us-ph-exposure-contact-info-football-game" key="Observation-observation-us-ph-exposure-contact-info-football-game" name="US Public Health Exposure Contact Information Example: Football Game"/>
 <artifact id="StructureDefinition/us-ph-exposure-contact-information" key="StructureDefinition-us-ph-exposure-contact-information" name="US Public Health Exposure Information"/>
-<artifact deprecated="true" id="StructureDefinition/us-ph-exposure-information" key="StructureDefinition-us-ph-exposure-information" name="US Public Health Exposure Information Information"/>
 <artifact id="StructureDefinition/us-ph-location" key="StructureDefinition-us-ph-location" name="US Public Health Location"/>
 <artifact id="StructureDefinition/us-ph-namedEventType" key="StructureDefinition-us-ph-namedEventType" name="US Public Health Named Event Type"/>
 <artifact id="StructureDefinition/us-ph-organization" key="StructureDefinition-us-ph-organization" name="US Public Health Organization"/>
@@ -133,10 +129,12 @@
 <artifact id="CodeSystem/us-ph-usage-context" key="CodeSystem-us-ph-usage-context" name="US Public Health Usage Context"/>
 <artifact id="CodeSystem/us-ph-usage-context-type" key="CodeSystem-us-ph-usage-context-type" name="US Public Health Usage Context Type"/>
 <artifact id="StructureDefinition/us-ph-valueset" key="StructureDefinition-us-ph-valueset" name="US Public Health Value Set"/>
+<artifact id="Library/library-us-ph-valueset-library-example" key="Library-library-us-ph-valueset-library-example" name="US Public Health ValueSet Library Example"/>
 <artifact id="StructureDefinition/us-ph-valueset-library" key="StructureDefinition-us-ph-valueset-library" name="US Public Health Valueset Library"/>
-<artifact id="StructureDefinition/us-ph-usageWarning" key="StructureDefinition-ersd-usageWarning" name="Usage Warning"/>
+<artifact id="Bundle/bundle-us-ph-specification-bundle-example" key="Bundle-bundle-us-ph-specification-bundle-example" name="USPublicHealthSpecificationBundleExample"/>
+<artifact id="StructureDefinition/us-ph-usageWarning" key="StructureDefinition-us-ph-usageWarning" name="Usage Warning"/>
 <artifact id="ValueSet/valueset-ecr-task-businessstatus" key="ValueSet-valueset-ecr-task-businessstatus" name="Value Set eCR Task BusinessStatus"/>
-<artifact id="ValueSet/valueset-reald-race-ethnicity" key="ValueSet-valueset-reald-race-ethnicity" name="ValueSet REALD Race Ethnicity"/>
+<artifact deprecated="true" id="ValueSet/valueset-reald-race-ethnicity" key="ValueSet-valueset-reald-race-ethnicity" name="ValueSet REALD Race Ethnicity"/>
 <artifact id="CapabilityStatement/capabilitystatement-ecr" key="CapabilityStatement-capabilitystatement-ecr" name="eCR CapabilityStatement"/>
 <artifact id="Device/device-ecr-software-ymca" key="Device-device-ecr-software-ymca" name="eCR Device Example: device-ecr-software-ymca"/>
 <artifact id="StructureDefinition/ecr-message-bundle" key="StructureDefinition-ecr-message-bundle" name="eCR Message Bundle"/>
@@ -166,26 +164,14 @@
 <artifact id="StructureDefinition/eicr-trigger-code-flag-extension" key="StructureDefinition-eicr-trigger-code-flag-extension" name="eICR Trigger Code Flag Extension"/>
 <artifact id="Bundle/bundle-eRSD" key="Bundle-bundle-eRSD" name="eRSD Bundle Example: bundle-eRSD"/>
 <artifact id="CapabilityStatement/capabilitystatement-ersd-client" key="CapabilityStatement-capabilitystatement-ersd-client" name="eRSD Client CapabilityStatement"/>
-<artifact deprecated="true" id="StructureDefinition/ersd-computablelibrary" key="StructureDefinition-ersd-computablelibrary" name="eRSD Computable Library"/>
-<artifact deprecated="true" id="StructureDefinition/ersd-computablevalueset" key="StructureDefinition-ersd-computablevalueset" name="eRSD Computable ValueSet"/>
 <artifact id="CodeSystem/ersd-endpoint-connection-type" key="CodeSystem-ersd-endpoint-connection-type" name="eRSD Endpoint Connection Type"/>
 <artifact id="ValueSet/valueset-ersd-endpoint-connection-type" key="ValueSet-valueset-ersd-endpoint-connection-type" name="eRSD Endpoint Connection Type Codes"/>
-<artifact deprecated="true" id="StructureDefinition/ersd-executablelibrary" key="StructureDefinition-ersd-executablelibrary" name="eRSD Executable Library"/>
-<artifact deprecated="true" id="StructureDefinition/ersd-executablevalueset" key="StructureDefinition-ersd-executablevalueset" name="eRSD Executable ValueSet"/>
 <artifact id="CodeSystem/ersd-jurisdiction-types" key="CodeSystem-ersd-jurisdiction-types" name="eRSD JurisdictionTypes"/>
 <artifact id="CodeSystem/ersd-jurisdictions-example" key="CodeSystem-ersd-jurisdictions-example" name="eRSD Jurisdictions Example"/>
 <artifact id="StructureDefinition/ersd-plandefinition" key="StructureDefinition-ersd-plandefinition" name="eRSD PlanDefinition"/>
 <artifact id="PlanDefinition/plandefinition-ersd-instance" key="PlanDefinition-plandefinition-ersd-instance" name="eRSD PlanDefinition Instance: plandefinition-ersd-instance"/>
 <artifact id="StructureDefinition/ersd-specification-bundle" key="StructureDefinition-ersd-specification-bundle" name="eRSD Specification Bundle"/>
 <artifact id="StructureDefinition/ersd-supplemental-bundle" key="StructureDefinition-ersd-supplemental-bundle" name="eRSD Supplemental Bundle"/>
-<artifact deprecated="true" id="StructureDefinition/ersd-supplemental-valueset" key="StructureDefinition-ersd-supplemental-valueset" name="eRSD Supplemental ValueSet"/>
-<artifact deprecated="true" id="StructureDefinition/ersd-supplemental-valueset-library" key="StructureDefinition-ersd-supplemental-valueset-library" name="eRSD Supplemental ValueSet Library"/>
-<artifact deprecated="true" id="StructureDefinition/ersd-triggering-valueset" key="StructureDefinition-ersd-triggering-valueset" name="eRSD Triggering ValueSet"/>
-<artifact deprecated="true" id="StructureDefinition/ersd-triggering-valueset-library" key="StructureDefinition-ersd-triggering-valueset-library" name="eRSD Triggering ValueSet Library"/>
-<artifact deprecated="true" id="CodeSystem/ersd-usage-context" key="CodeSystem-ersd-usage-context" name="eRSD Usage Context Code System"/>
-<artifact deprecated="true" id="CodeSystem/ersd-usage-context-type" key="CodeSystem-ersd-usage-context-type" name="eRSD Usage Context Type Code System"/>
-<artifact deprecated="true" id="StructureDefinition/ersd-valueset-library" key="StructureDefinition-ersd-valueset-library" name="eRSD Valueset Library"/>
-<artifact deprecated="true" id="StructureDefinition/ersd-valueset" key="StructureDefinition-ersd-valueset" name="ersd ValueSet"/>
 <artifact id="Library/library-rctc" key="Library-library-rctc" name="library-rctc"/>
 <artifact id="Subscription/subscription-dxtc" key="Subscription-subscription-dxtc" name="subscription-dxtc"/>
 <artifact id="Subscription/subscription-lotc" key="Subscription-subscription-lotc" name="subscription-lotc"/>
@@ -194,7 +180,6 @@
 <page key="many" name="(many)"/>
 <page key="acknowledgements" name="Acknowledgements"/>
 <page key="artifacts" name="Artifacts Summary"/>
-<page deprecated="true" key="background" name="Background"/>
 <page key="design_considerations" name="Design Considerations"/>
 <page key="downloads" name="Downloads"/>
 <page key="electronic_initial_case_report_eicr_transaction_and_profiles" name="Electronic Initial Case Report (eICR) Transaction and Profiles"/>
@@ -208,7 +193,6 @@
 <page key="rule_filter_generation" name="Rule Filter Generation"/>
 <page key="subscription_service" name="Subscription Service"/>
 <page key="toc" name="Table of Contents"/>
-<page deprecated="true" key="the_specification" name="The Specification"/>
 <page key="transaction_profiles" name="Transaction Profiles"/>
 <page key="transport_options" name="Transport Options"/>
 <page key="ersd_jurisdictions_codesystem_configuration" name="eRSD Jurisdictions CodeSystem Configuration"/>

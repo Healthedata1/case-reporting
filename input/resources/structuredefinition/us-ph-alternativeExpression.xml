@@ -21,8 +21,8 @@
     <kind value="complex-type"/>
     <abstract value="false"/>
     <context>
-        <type value="element"/>
-        <expression value="PlanDefinition.action.condition.expression"/>
+        <type value="fhirpath"/>
+        <expression value="PlanDefinition.repeat(action).condition.expression"/>
     </context>
     <type value="Extension"/>
     <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>

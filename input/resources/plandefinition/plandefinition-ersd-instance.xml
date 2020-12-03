@@ -18,72 +18,72 @@
             <p>
                 <b>url</b>:
 
-                
+
                 <a href="PlanDefinition-plandefinition-ersd-instance.html">http://hl7.org/fhir/us/ecr/PlanDefinition/plandefinition-ersd-instance</a>
             </p>
             <p>
                 <b>version</b>: 3.0.0
 
-            
+
             </p>
             <p>
                 <b>name</b>: PlanDefinition_eRSD_Instance
 
-            
+
             </p>
             <p>
                 <b>title</b>: eRSD PlanDefinition Instance
 
-            
+
             </p>
             <p>
                 <b>type</b>:
 
-                
+
                 <span title="Codes: {http://terminology.hl7.org/CodeSystem/plan-definition-type workflow-definition}">Workflow
         Definition</span>
             </p>
             <p>
                 <b>status</b>: active
 
-            
+
             </p>
             <p>
                 <b>experimental</b>: true
 
-            
+
             </p>
             <p>
                 <b>date</b>: Jul 31, 2020, 5:32:29 PM
 
-            
+
             </p>
             <p>
                 <b>publisher</b>: HL7 Public Health Work Group (http://www.hl7.org/Special/committees/pher/index.cfm)
 
-            
+
             </p>
             <p>
                 <b>contact</b>: HL7 International - Public Health:
 
-                
+
                 <a href="http://www.hl7.org/Special/committees/pher">http://www.hl7.org/Special/committees/pher</a>
             </p>
             <p>
                 <b>description</b>: An example ersd PlanDefinition
 
-            
+
             </p>
             <p>
                 <b>jurisdiction</b>:
 
-                
+
                 <span title="Codes: {urn:iso:std:iso:3166 US}">United States of America</span>
             </p>
             <p>
                 <b>effectivePeriod</b>: 2020-12-01 --&gt; (ongoing)
 
-            
+
             </p>
         </div>
     </text>
@@ -151,8 +151,8 @@
                 <code value="check-reportable"/>
             </coding>
         </code>
-        <action>
-            <condition id="is-encounter-reportable">
+        <action id="ckr-is-encounter-reportable">
+            <condition>
                 <kind value="applicability"/>
                 <expression>
                     <extension url="http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-alternativeExpression">
@@ -247,8 +247,8 @@
                 <relationship value="before-start"/>
             </relatedAction>
         </action>
-        <action>
-            <condition id="is-encounter-in-progress">
+        <action id="ckr-is-encounter-in-progress">
+            <condition>
                 <kind value="applicability"/>
                 <expression>
                   <extension url="http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-alternativeExpression">
@@ -282,13 +282,13 @@
                 <code value="create-and-report-eicr"/>
             </coding>
         </code>
-        <action>
+        <action id="car-report-eicr">
             <relatedAction>
                 <actionId value="report-eicr"/>
                 <relationship value="before-start"/>
             </relatedAction>
         </action>
-        <action>
+        <action id="car-is-encounter-complete">
             <condition>
                 <kind value="applicability"/>
                 <expression>
@@ -313,7 +313,7 @@
                 </offsetDuration>
             </relatedAction>
         </action>
-        <action>
+        <action id="car-is-encounter-in-progress">
             <condition>
                 <kind value="applicability"/>
                 <expression>
