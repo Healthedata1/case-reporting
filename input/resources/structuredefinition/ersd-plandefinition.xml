@@ -397,9 +397,9 @@
             </slicing>
             <min value="3"/>
         </element>
-        <element id="PlanDefinition.action:createAndReport.action:reportEcir">
+        <element id="PlanDefinition.action:createAndReport.action:reportEicr">
             <path value="PlanDefinition.action.action"/>
-            <sliceName value="isEncounterComplete"/>
+            <sliceName value="reportEicr"/>
             <min value="1"/>
             <max value="1"/>
             <type>
