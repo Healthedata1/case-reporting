@@ -63,8 +63,8 @@ The current PlanDefinition uses ECA Rules, we propose using Workflow Definition 
 </ul>
 
 <ul>
-  <li><a href="StructureDefinition-us-ph-valueset-library.html">US Public Health ValueSet Library</a></li>
-	<li><a href="StructureDefinition-us-ph-valueset.html">US Public Health ValueSet</a></li>
+  <li><a href="StructureDefinition-ersd-valueset-library.html">eRSD ValueSet Library</a></li>
+	<li><a href="StructureDefinition-ersd-valueset.html">eRSD ValueSet</a></li>
 </ul>
 
 [Next Page - Subscription Service](subscription_service.html)
